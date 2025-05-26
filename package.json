@@ -1,0 +1,14 @@
+{
+  "name": "hello-jay-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js server that says hello from Jay",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jay",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
