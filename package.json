@@ -1,15 +1,16 @@
 {
-  "name": "hello-jay-app",
+  "name": "nodejs-demo-app",
   "version": "1.0.0",
-  "description": "A simple Node.js server that says hello from Jay",
+  "description": "A simple Node.js app",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
+  "keywords": [],
   "author": "Jay",
-  "license": "MIT",
-  "engines": {
-    "node": ">=18.0.0"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.0"
   }
 }
