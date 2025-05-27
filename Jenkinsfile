@@ -28,6 +28,7 @@ pipeline {
                     // Run new container
                     sh "docker run -d --name ${CONTAINER_NAME} -p ${PORT_MAPPING} ${IMAGE_NAME}"
                     sh "docker ps"
+                    sh "curl http://localhost:3000"
                 }
             }
         }
