@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "node-app"
         CONTAINER_NAME = "node-app-container"
-        PORT_MAPPING = "3000:3000" // Change as needed
+        PORT_MAPPING = "3000:3000" 
     }
 
     stages {
